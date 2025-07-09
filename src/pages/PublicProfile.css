@@ -1,0 +1,57 @@
+.public-page{
+  min-height:100%;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  padding:2rem 1rem;
+  text-align:center;
+}
+
+.public-page h1{
+  font-size:2.5rem;
+  margin-bottom:2rem;
+}
+
+.public-page ul{width:100%;max-width:600px}
+
+.public-page li{margin-bottom:1rem}.public-page li{animation:fadeUp .5s ease forwards;opacity:0}
+
+.public-page button{
+  width:100%;
+  padding:1rem 1.5rem;
+  font-size:1.1rem;
+  border-radius:var(--radius);
+  background:var(--clr-accent);
+  color:#fff;
+  box-shadow:var(--shadow);
+  transition:opacity var(--transition);
+}
+.public-page button:hover{opacity:.9}
+
+.public-page footer{margin-top:3rem;opacity:.6;font-size:.85rem}
+
+.public-page ul {
+  list-style: none;
+  padding: 0;
+}
+
+.public-page button {
+  width: 100%;
+  margin: 0.5rem 0;
+  padding: 1rem;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.public-page footer {
+  margin-top: 3rem;
+  font-size: .8rem;
+  opacity: .6;
+}
+
+.theme-rainbow { background: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet); color:#fff; }
+.theme-sunset  { background: linear-gradient(45deg, #ff512f, #dd2476); color:#fff; }
+.theme-mint    { background: #b8ffec; }
+.theme-space   { background: radial-gradient(circle at 20% 20%, #3a1c71 0%, #d76d77 50%, #ffaf7b 100%); color:#fff; }

@@ -1,0 +1,38 @@
+/* ===== Fancy Effects & Animations ===== */
+
+h1,h2,.brand{
+  font-family:'Space Grotesk',sans-serif;
+  letter-spacing:-.5px;
+}
+
+/* Fade-up entrance */
+.fade-up{opacity:0;transform:translateY(20px);animation:fadeUp .6s ease forwards}
+@keyframes fadeUp{to{opacity:1;transform:translateY(0)}}
+
+/* Soft neon glow for accent buttons */
+.glow-btn{
+  position:relative;
+  isolation:isolate;
+}
+.glow-btn::after{
+  content:"";
+  position:absolute;
+  inset:0;
+  background:var(--clr-accent);
+  filter:blur(12px);
+  opacity:.6;
+  transition:opacity .3s ease;
+  border-radius:inherit;
+  z-index:-1;
+}
+.glow-btn:hover::after{opacity:1}
+
+/* Animated gradient backgrounds for themes */
+.theme-rainbow,
+.theme-sunset,
+.theme-mint,
+.theme-space{
+  background-size:400% 400%;
+  animation:gradientShift 20s ease infinite alternate;
+}
+@keyframes gradientShift{0%{background-position:0% 50%}100%{background-position:100% 50%}}
