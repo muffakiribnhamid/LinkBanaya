@@ -1,12 +1,15 @@
-# React + Vite
+# LinkBanaya 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern **link-in-bio** and **QR-code generator** built with React 18 & Vite. Curate all your important links on a single beautiful page, share them instantly with a dynamic QR code, and reorder everything with simple drag-and-drop.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
 
-## Expanding the ESLint configuration
+- Personalised public profile with unlimited links
+- Real-time QR code that updates as you edit
+- Drag-and-drop ordering (powered by `react-beautiful-dnd`)
+- Responsive design – looks great on mobile & desktop
+- Super-fast dev/build workflow via Vite
+- Ready to deploy to any static host (Netlify, Vercel, GitHub Pages…)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
